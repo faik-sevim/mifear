@@ -15,6 +15,7 @@ Make sure you have the following:
 - **USB Cable**
 - **macOS 10.12 or later**
 
+
 ### 3. Install the USB Serial Driver  
 
 The PN532 and PCR532 Readers from MTools Tec use the CH340E USB-to-serial chip. To communicate with the reader, install the USB serial driver:
@@ -80,6 +81,10 @@ If you encounter the error `Unable to open NFC device: pn532_uart:/dev/tty.wchus
       ```
 
 3. Save the file and exit. Run `nfc-list` again; the issue should be resolved.
+   
+Here is the pin connection and pn532 pin layout
+
+![b8c166ff-69c5-456f-8d95-92c815bc33a7](https://github.com/user-attachments/assets/09602d1f-15eb-4fe5-836e-74594300f251)
 
 ### 6. Fresh Install Script
 
@@ -88,8 +93,6 @@ For an automated installation, use the following script:
 ```bash
 ./miLazyCrackerFreshInstall.sh
 
-Here is the pin connection and pn532 pin layout
 
-![image](https://github.com/user-attachments/assets/1ff5a4e2-6e72-4ab0-9ec0-3c2300ed9ed5)
 
 
