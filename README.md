@@ -87,3 +87,9 @@ For an automated installation, use the following script:
 
 ```bash
 ./miLazyCrackerFreshInstall.sh
+
+Here is the pin connection and pn532 pin layout
+
+![image](https://github.com/user-attachments/assets/1ff5a4e2-6e72-4ab0-9ec0-3c2300ed9ed5)
+
+
